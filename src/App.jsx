@@ -1,5 +1,5 @@
 import './App.css'
-import { Route, Routes } from 'react-router-dom'
+import { Navigate, Route, Routes } from 'react-router-dom'
 import Home from './Pages/Home/Home'
 import Header from './Components/Header/Header'
 import Projects from './Pages/Projects/Projects'
@@ -15,6 +15,7 @@ function App () {
         <Route path='/portafolio/projects' element={<Projects />} />
         <Route path='/portafolio/about' element={<About />} />
         <Route path='/portafolio/contact' element={<Contact />} />
+        <Route path='*' element={<Navigate to='/portafolio' />} />
       </Routes>
 
     </>
