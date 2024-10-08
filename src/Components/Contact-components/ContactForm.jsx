@@ -17,7 +17,6 @@ export default function ContactForm () {
       id='contact-form'
       action='https://formspree.io/f/xovqayag' method='POST' className='contact_form'
       onSubmit={handleSubmit(onSubmit)}
-      target='_top'
     >
       <input
         className='contact_form-name' placeholder='Tu Nombre' autoFocus='none'
