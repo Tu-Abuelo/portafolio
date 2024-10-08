@@ -7,10 +7,10 @@ export default function Nav () {
     <>
       <nav className='header_nav'>
         <ul className='header_nav_ul'>
-          <li><Link to='/'>Home</Link></li>
-          <li><Link to='/about'>Sobre mi</Link></li>
-          <li><Link to='/projects'>Proyectos</Link></li>
-          <li><Link to='/contact'>Contacto</Link></li>
+          <li><Link to='/portafolio'>Home</Link></li>
+          <li><Link to='/portafolio/about'>Sobre mi</Link></li>
+          <li><Link to='/portafolio/projects'>Proyectos</Link></li>
+          <li><Link to='/portafolio/contact'>Contacto</Link></li>
         </ul>
       </nav>
     </>

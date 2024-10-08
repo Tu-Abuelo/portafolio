@@ -7,10 +7,10 @@ export default function NavResponsive () {
     <>
       <nav className='header_nav-responsive'>
         <ul className='header_nav_ul-responsive'>
-          <li><Link to='/'>Home</Link></li>
-          <li><Link to='/about'>Sobre mi</Link></li>
-          <li><Link to='/projects'>Proyectos</Link></li>
-          <li><Link to='/contact'>Contacto</Link></li>
+          <li><Link to='/portafolio'>Home</Link></li>
+          <li><Link to='/portafolio/about'>Sobre mi</Link></li>
+          <li><Link to='/portafolio/projects'>Proyectos</Link></li>
+          <li><Link to='/portafolio/contact'>Contacto</Link></li>
         </ul>
       </nav>
     </>
