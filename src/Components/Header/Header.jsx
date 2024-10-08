@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './header.css'
 import { FaGithub, FaLinkedin, FaAlignJustify } from 'react-icons/fa'
 import Nav from '../Nav/Nav'
-import NavResponsive from '../NavResponsive/navResponsive'
+import NavResponsive from '../NavResponsive/NavResponsive'
 
 export default function Header () {
   const [header, setHeader] = useState(false)
