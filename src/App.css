@@ -1,19 +1,8 @@
 #root {
- width: 100%;
- 
+
 }
 
-.main{
-  display: flex;
-  justify-content: center;
-  gap: 50px;
-  flex-wrap: wrap;
-  align-items: center;
-  width: 97%;
-  min-height: 88.7vh ;
-  margin: auto;
-  border: 5px solid #000;
-  background: #222;
-  
+li{
+    text-decoration: none;
 }
 

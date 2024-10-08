@@ -1,0 +1,41 @@
+.projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    background-color: #111111f3;
+    outline: 4px solid #000;
+}
+
+.projects_img-container{
+    width: 100%;
+    height: 80%;
+    position: relative;
+}
+
+.projects_tecnologis{
+    position: absolute;
+    right: 0;
+    background: #111111f3;
+}
+
+.projects_img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.projects_description{
+    margin: 0;
+    height: 20%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.projects_description > a{
+    color: #eee;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

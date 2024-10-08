@@ -1,18 +1,25 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './header.css'
-import { Link } from 'react-router-dom'
+import { FaGithub, FaLinkedin, FaAlignJustify } from 'react-icons/fa'
+import Nav from '../Nav/Nav'
+import NavResponsive from '../NavResponsive/navResponsive'
 
 export default function Header () {
+  const [header, setHeader] = useState(false)
+
   return (
     <header className='header'>
-      <nav className='header_nav'>
-        <ul className='header_nav_ul'>
-          <li><Link to='/'>Home</Link></li>
-          <li><Link to='/about'>About me</Link></li>
-          <li><Link to='/projects'>Projects</Link></li>
-          <li><Link to='/contact'>Contact</Link></li>
-        </ul>
-      </nav>
+      <div className='header_redes'>
+        <a className='link-icons' target='blank' href='https://github.com/Tu-Abuelo/'><FaGithub className='icons-header git-hub' /></a>
+        <a className='link-icons' target='blank' href=''><FaLinkedin className='icons-header linkedin' /></a>
+      </div>
+      <div className=' header_nav-container'>
+        {window.innerWidth > 800
+          ? <Nav />
+          : <button className='header_nav_menu' onClick={() => { setHeader(!header) }}><FaAlignJustify className='header_nav_menu-icon' /></button>}
+        {header ? <NavResponsive /> : ''}
+      </div>
+
     </header>
 
   )

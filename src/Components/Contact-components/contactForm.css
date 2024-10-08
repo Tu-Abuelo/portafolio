@@ -1,0 +1,82 @@
+.contact_form{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.contact_form-name{
+    width: 80%;
+    height: 35px;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    text-align: center;
+    line-height: 30px;
+    font-size: 25px;
+    background: #3333333f;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #cec112 ;
+    color: #fff;
+    
+}
+
+
+.contact_form-email{
+    width: 80%;
+    height: 35px;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    text-align: center;
+    line-height: 30px;
+    font-size: 25px;
+    background: #3333333f;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #cec112 ;
+    color: #fff;
+}
+
+.contact_form-message{
+    width: 80%;
+    height: 120px;
+    resize: none;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    text-align: center;
+    line-height: 22px;
+    font-size: 19px;
+    background: #3333333f;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #cec112 ;
+    color: #fff;
+    overflow: hidden;
+    
+}
+
+.contact_form-submit{
+    font-family:  Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    color: #111;
+    font-size: 20px;
+    width: max-content;
+    text-align: center;
+    height: 35px;
+    padding:0 10px;
+    padding-bottom: 3px;
+    background: #cec112;
+    border-radius: 5%;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.contact_form-submit:hover{
+    background: #887f01;
+}
+
+.error-mesage{
+    color: rgb(218, 20, 20);
+}

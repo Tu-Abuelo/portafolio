@@ -1,0 +1,10 @@
+.main-contact{
+    width: 98%;
+    min-height: 88.7vh ;
+    margin: auto;
+    border: 5px solid #000;
+    background: #222;
+    display: flex;
+    justify-content: center;
+    
+  }
