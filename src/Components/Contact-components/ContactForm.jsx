@@ -15,7 +15,7 @@ export default function ContactForm () {
 
     <form
       id='contact-form'
-      action='https://formspree.io/f/xovqayag' method='POST' className='contact_form'
+      action='https://formsubmit.co/luisalbertovaldes1423@gmail.com' method='POST' className='contact_form'
       onSubmit={handleSubmit(onSubmit)}
     >
       <input
