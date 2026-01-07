@@ -1,21 +1,20 @@
 import React from 'react'
 import './icons.css'
-import { FaHtml5, FaCss3Alt, FaReact } from 'react-icons/fa'
-import { BiLogoJavascript } from 'react-icons/bi'
-import proyectImg from '../../assests/Sin título.png'
+import { CssIcon, HtmlIcon, JsIcon, ReactIcon } from '../../assests/icons.jsx'
+import tiendaOnline from '../../assests/Tienda-Online.png'
 
 const projects = [
   {
-    src: proyectImg,
-    name: 'Giphy Clone',
-    href: 'https://tu-abuelo.github.io/buscador-de-gifs/',
-    tecn: [<FaHtml5 key='html' className='icons html' />, <FaCss3Alt key='css' className='icons css' />, <BiLogoJavascript key='javascript' className='icons javascript' />, <FaReact key='react' className='icons react' />]
+    src: tiendaOnline,
+    name: 'Online Shop(Fake)',
+    href: 'https://tu-abuelo.github.io/Tienda-Online/',
+    tecn: [<HtmlIcon key='html' />, <CssIcon key='css' />, <JsIcon key='js' />, <ReactIcon key='react' />]
   },
   {
-    src: proyectImg,
-    name: 'Giphy Clones',
-    href: 'https://tu-abuelo.github.io/buscador-de-gifs/',
-    tecn: [<FaHtml5 key='html' className='icons html' />, <FaCss3Alt key='css' className='icons css' />, <BiLogoJavascript key='javascript' className='icons javascript' />, <FaReact key='react' className='icons react' />]
+    src: tiendaOnline,
+    name: 'Online Shop(Fake)',
+    href: 'https://tu-abuelo.github.io/Tienda-Online/',
+    tecn: [<HtmlIcon key='html' />, <CssIcon key='css' />, <JsIcon key='js' />, <ReactIcon key='react' />]
   }
 ]
 
