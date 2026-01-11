@@ -3,7 +3,7 @@ import htmlImg from './icons/HTML5_icon-icons.com_67090.ico'
 import cssImg from './icons/CSS3_icon-icons.com_67069.ico'
 import jsImg from './icons/file_type_js_official_icon_130509.ico'
 import reactImg from './icons/reactjs_logo_icon_168875.ico'
-import nodeImg from './icons/nodejs_logo_icon_168945.ico'
+import nodeImg from './icons/5hl8i764o3f1rc624qos5ukags.png'
 import gitImg from './icons/github_original_wordmark_logo_icon_146506.ico'
 import linkedinImg from './icons/linkedin_logo_icon_170234.ico'
 

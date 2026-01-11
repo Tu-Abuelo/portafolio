@@ -4,7 +4,7 @@ export default function Description () {
   return (
     <>
       <section className='description-container'>
-        <h2 className='description-title'>Descripcion</h2>
+        <h2 className='description-title'>Description</h2>
         <p className='description-text'>
           Me llamo Luis Alberto y soy un desarrollador web junior.
           Soy una persona tranquila, paciente y amigable, por lo

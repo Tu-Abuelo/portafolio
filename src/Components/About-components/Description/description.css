@@ -16,4 +16,11 @@
 .description-text{
     color: #fff;
     padding: 0 10px;
+    font-size: 17px;
+}
+
+@media (min-width: 1600px){
+    .description-text{
+        font-size: 22px;
+    }
 }

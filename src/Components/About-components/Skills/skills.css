@@ -14,15 +14,16 @@
 
 .about_skills-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .about_skills-items{
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
 }
 
-.about_skills-items > svg {
+.about_skills-items > img {
     width: 100%;
     height: 100%;
 }

@@ -32,7 +32,7 @@
 
     color: transparent;
     -webkit-text-stroke:1.5px #000000 ;
-    background-image: linear-gradient(to left, #cec112,#cec112 ,rgb(24, 22, 0),rgb(24, 22, 0));
+    background-image: linear-gradient(to left, #7a6c00,#4d4400 ,rgb(24, 22, 0),rgb(24, 22, 0));
     -webkit-background-clip: text;
     background-clip: text;
     animation: move 15s linear infinite;
@@ -60,6 +60,7 @@
     cursor: pointer;
     outline: none;
     border: none;
+    border-radius: 20px;
 }
 
 
@@ -88,6 +89,7 @@
         height: 280px;
     }
 }
+
 
 
 

@@ -3,6 +3,7 @@ import './header.css'
 import { FaGithub, FaLinkedin, FaAlignJustify } from 'react-icons/fa'
 import Nav from '../Nav/Nav'
 import NavResponsive from '../NavResponsive/NavResponsive'
+import { GitIcon, LinkedinIcon } from '../../assests/icons'
 
 export default function Header () {
   const [header, setHeader] = useState(false)
@@ -10,8 +11,8 @@ export default function Header () {
   return (
     <header className='header'>
       <div className='header_redes'>
-        <a className='link-icons' target='blank' href='https://github.com/Tu-Abuelo/'><FaGithub className='icons-header git-hub' /></a>
-        <a className='link-icons' target='blank' href=''><FaLinkedin className='icons-header linkedin' /></a>
+        <a className='link-icons  git-hub' target='blank' href='https://github.com/Tu-Abuelo/'><GitIcon className='icons-header' /></a>
+        <a className='link-icons linkedin' target='blank' href=''><LinkedinIcon className='icons-header' /></a>
       </div>
       <div className=' header_nav-container'>
         {window.innerWidth > 800

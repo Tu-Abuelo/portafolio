@@ -34,6 +34,7 @@ button {
   font-family: inherit;
   cursor: pointer;
   background: #cec112;
+  border-radius: 20px;
 }
 
 .icons > img{
