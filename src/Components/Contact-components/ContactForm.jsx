@@ -24,7 +24,6 @@ export default function ContactForm () {
     }
     setErrors({})
 
-    // Envío asíncrono con fetch para no bloquear la página ni navegar
     try {
       setSubmitting(true)
       const actionUrl = formRef.current?.action || 'https://formspree.io/f/xovqayag'
@@ -42,7 +41,6 @@ export default function ContactForm () {
         setSuccessMessage('Message sent successfully.')
         setForm({ nombre: '', email: '', mensaje: '' })
       } else {
-        // Formspree puede devolver errores en `errors` o `message`
         const serverError = data?.errors?.[0]?.message || data?.message || 'Submission failed.'
         setErrors({ _form: serverError })
       }

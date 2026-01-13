@@ -14,9 +14,23 @@
 }
 
 .description-text{
+    position: relative;
     color: #fff;
     padding: 0 10px;
     font-size: 17px;
+}
+
+.description-btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    translate: 0px -30px;
 }
 
 @media (min-width: 1600px){

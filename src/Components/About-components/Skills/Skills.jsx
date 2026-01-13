@@ -1,5 +1,5 @@
 import './skills.css'
-import { CssIcon, GitIcon, HtmlIcon, JsIcon, NodeIcon, ReactIcon } from '../../../assests/icons'
+import { CssIcon, GitIcon, HtmlIcon, JsIcon, NodeIcon, ReactIcon } from '../../../assets/icons'
 
 export default function Skills () {
   return (

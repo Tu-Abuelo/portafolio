@@ -1,19 +1,23 @@
 import './description.css'
+import { useState } from 'react'
+import { languaje } from './descriptionLanguaje.js'
 
 export default function Description () {
+  const [lang, setLang] = useState(languaje.en)
+
   return (
     <>
       <section className='description-container'>
         <h2 className='description-title'>Description</h2>
         <p className='description-text'>
-          Me llamo Luis Alberto y soy un desarrollador web junior.
-          Soy una persona tranquila, paciente y amigable, por lo
-          que trabajar en equipo no es un problema para mí.
-          Aprendo rápido y siempre estoy abierto a nuevas tecnologías.
-          Mi especialidad es el frontend utilizando React, sin embargo,
-          mi conocimiento no se limita solo a eso.
-          También tengo conocimientos en el backend
-          y considero que puedo llegar a ser un valioso activo para cualquier empresa.
+          <button
+            className='description-btn' onClick={() => {
+              if (lang === languaje.es) setLang(languaje.en)
+              if (lang === languaje.en) setLang(languaje.es)
+            }}
+          > {lang === languaje.es ? 'Change to english' : 'Cambiar a español'}
+          </button>
+          {lang.description}
         </p>
       </section>
     </>

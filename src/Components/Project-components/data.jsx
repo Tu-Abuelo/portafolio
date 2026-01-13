@@ -1,7 +1,7 @@
 import React from 'react'
 import './icons.css'
-import { CssIcon, HtmlIcon, JsIcon, NodeIcon, ReactIcon } from '../../assests/icons.jsx'
-import tiendaOnline from '../../assests/Tienda-Online.png'
+import { CssIcon, HtmlIcon, JsIcon, NodeIcon, ReactIcon } from '../../assets/icons.jsx'
+import tiendaOnline from '../../assets/Tienda-Online.png'
 
 const projects = [
   {
