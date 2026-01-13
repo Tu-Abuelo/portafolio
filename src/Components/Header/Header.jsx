@@ -1,9 +1,8 @@
 import React, { useState } from 'react'
 import './header.css'
-import { FaGithub, FaLinkedin, FaAlignJustify } from 'react-icons/fa'
 import Nav from '../Nav/Nav'
 import NavResponsive from '../NavResponsive/NavResponsive'
-import { GitIcon, LinkedinIcon } from '../../assests/icons'
+import { GitIcon, LinkedinIcon, MenuBotonIcon } from '../../assests/icons'
 
 export default function Header () {
   const [header, setHeader] = useState(false)
@@ -17,7 +16,7 @@ export default function Header () {
       <div className=' header_nav-container'>
         {window.innerWidth > 800
           ? <Nav />
-          : <button className='header_nav_menu' onClick={() => { setHeader(!header) }}><FaAlignJustify className='header_nav_menu-icon' /></button>}
+          : <button className='header_nav_menu' onClick={() => { setHeader(!header) }}><MenuBotonIcon className='header_nav_menu-icon' /></button>}
         {header ? <NavResponsive /> : ''}
       </div>
 

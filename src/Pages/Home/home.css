@@ -1,6 +1,6 @@
 .main-home{
     width: 98%;
-    min-height: 88.7vh ;
+    min-height: 90vh ;
     margin: auto;
     border: 5px solid #000;
     background: #222;
@@ -9,6 +9,8 @@
     gap: 50px;
     flex-wrap: wrap;
     align-items: center;
+    padding: 3px;
+    box-sizing: border-box;
   }
   
 .presentacion{

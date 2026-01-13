@@ -1,6 +1,6 @@
 .main-about{
     width: 98%;
-    min-height: 88vh;
+    min-height: 90vh;
     margin: auto;
     border: 5px solid #000;
     background: #222;
@@ -8,4 +8,6 @@
     flex-direction: column;
     justify-content: space-evenly;
     gap: 70px;
+    padding: 3px;
+    box-sizing: border-box;
 }

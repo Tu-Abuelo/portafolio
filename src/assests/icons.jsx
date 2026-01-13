@@ -1,11 +1,15 @@
-import React from 'react'
-import htmlImg from './icons/HTML5_icon-icons.com_67090.ico'
-import cssImg from './icons/CSS3_icon-icons.com_67069.ico'
-import jsImg from './icons/file_type_js_official_icon_130509.ico'
-import reactImg from './icons/reactjs_logo_icon_168875.ico'
-import nodeImg from './icons/5hl8i764o3f1rc624qos5ukags.png'
-import gitImg from './icons/github_original_wordmark_logo_icon_146506.ico'
-import linkedinImg from './icons/linkedin_logo_icon_170234.ico'
+import htmlImg from './icons/HTML.svg'
+import cssImg from './icons/Css.svg'
+import jsImg from './icons/Js.svg'
+import reactImg from './icons/React.svg'
+import nodeImg from './icons/Nodejs.svg'
+import gitImg from './icons/Git.svg'
+import linkedinImg from './icons/Linkedin.svg'
+import menuBoton from './icons/MenuBoton.svg'
+
+export function MenuBotonIcon () {
+  return <div className='icons'><img src={menuBoton} alt={menuBoton} /></div>
+}
 
 export function HtmlIcon () {
   return <div className='icons'><img src={htmlImg} alt={htmlImg} /></div>
